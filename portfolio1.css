@@ -1,0 +1,45 @@
+button {
+  color: green;
+  border-radius: 10px;
+  background-color: skyblue;
+  float: right;
+}
+
+.image_container img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  object-fit: cover;
+}
+.projects_container {
+  display: flex;
+  gap: 10px;
+  border: 1px solid blue;
+  padding: 10px;
+  overflow: auto;
+}
+.Project{
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  flex-shrink: 0;
+}
+.Project img {
+  width: 100%;
+  height: 250px;
+}
+.Project h2{
+  margin: 0;
+  text-align: center;
+  margin-top: 5px;
+  
+}
+
+.My_Skills {
+  /* display: flex; */
+  /* justify-content: center; */
+}
